@@ -55,6 +55,8 @@ const Header = () => {
         </span>
       </div>
 
+      {/* hamburger menu */}
+
       <div
         onClick={handleNav}
         className="md:hidden flex items-center justify-end w-full cursor-pointer  z-10"
@@ -103,6 +105,7 @@ const Header = () => {
                 <ul key={id} className=" ">
                   <li className="font-poppins text-xl  text-white font-medium uppercase py-6  ">
                     <NavLink
+                      onClick={handleNav}
                       to={to}
                       className={({ isActive }) =>
                         isActive ? "text-teal-400" : "text-primary"

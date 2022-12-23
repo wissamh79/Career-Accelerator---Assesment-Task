@@ -59,17 +59,10 @@ const Jokes = () => {
                 </h2>
 
                 <Closure punchline={joke.punchline} />
-
-                {/* <button className="font-poppins text-sm bg-white rounded-xl text-gray-300 capitalize font-medium px-4 py-1">
-                  punchline
-                </button>
-                <p className="font-poppins text-sm capitalize font-normal  text-black pl-3">
-                  {joke.punchline}
-                </p> */}
               </div>
             ))
           ) : (
-            <div className=" flex flex-col items-center justify-center w-[500px] h-[100px] bg-orange-100 dark:bg-yellow-900 px-4 py-2 rounded-xl text-center  ">
+            <div className=" flex flex-col items-center justify-center w-[540px] h-[100px] bg-orange-100 dark:bg-yellow-900 px-4 py-2 rounded-xl text-center  ">
               <h2 className=" font-poppins text-l   uppercase text-gray-400 dark:text-gray-200 font-normal">
                 There is no jokes to display
               </h2>
